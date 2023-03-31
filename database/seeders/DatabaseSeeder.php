@@ -18,6 +18,10 @@ class DatabaseSeeder extends Seeder
             [
                 [
                     "slug" => "stark",
+                    "name" => "Free house",
+                ],
+                [
+                    "slug" => "stark",
                     "name" => "House Stark of Winterfell",
                 ],
                 ["slug" => "lannister",
@@ -139,7 +143,7 @@ class DatabaseSeeder extends Seeder
                 [
                     "slug" => "varys",
                     "name" => "Lord Varys",
-                    "house" => null,
+                    "house" => "free",
                 ],
                 [
                     "slug" => "bran",
@@ -159,12 +163,12 @@ class DatabaseSeeder extends Seeder
                 [
                     "slug" => "tormund",
                     "name" => "Tormund",
-                    "house" => null,
+                    "house" => "free",
                 ],
                 [
                     "slug" => "melisandre",
                     "name" => "Melisandre",
-                    "house" => null,
+                    "house" => "free",
                 ],
                 [
                     "slug" => "olenna",
@@ -174,12 +178,12 @@ class DatabaseSeeder extends Seeder
                 [
                     "slug" => "mance",
                     "name" => "Mance Rayder",
-                    "house" => null,
+                    "house" => "free",
                 ],
                 [
                     "slug" => "ygritte",
                     "name" => "Ygritte",
-                    "house" => null,
+                    "house" => "free",
                 ],
             ]);
 
